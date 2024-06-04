@@ -33,6 +33,13 @@ Install the project's dependencies:
 bun install
 ```
 
+Create the local database folder and an empty database:
+
+```bash
+mkdir dbs
+touch dbs/expenses.db
+```
+
 ## Development
 
 To start the development server run:
