@@ -56,7 +56,7 @@ Add a new expense:
 curl "http://127.0.0.1:$PORT/records" \
   -X POST \
   -H 'Content-Type: application/json' \
-  -d '{"ammount": 200,"information": "Bought something nice!"}'
+  -d '{"amount": 200,"information": "Bought something nice!"}'
 ```
 
 Get all expenses:
